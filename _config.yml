@@ -15,11 +15,12 @@
 # in the templates via {{ site.myvariable }}.
 title: "Hello. I'm Fabio Tranjan."
 email: 'fabiotranjan@gmail.com'
-description: "I'm a software engineer from Curitiba (Brazil) creating customized WebApps and SaaS platforms."
+description: "I'm a Ruby Developer from Curitiba, Brazil working with customized WebApps and SaaS platforms for a while."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://fabiotranjan.github.io" # the base hostname & protocol for your site, e.g. https://example.com
 twitter_username: 'fabiotranjan'
-github_username: 'fabio_tranjan'
+github_username: 'fabiotranjan'
+linkedin_username: 'fabio-tranjan-8aa84bbb'
 medium_username: 'blog.fabiotranjan.com'
 
 # Build settings

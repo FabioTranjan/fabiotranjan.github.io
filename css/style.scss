@@ -152,6 +152,14 @@ button.btn, input.btn {
 /*--------------------------------------------------------------
 	2.1 Contact
 --------------------------------------------------------------*/
+
+.contact-link {
+  color: gray;
+  display: block;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
 .modal-header {
   border-bottom: none;
   button {
