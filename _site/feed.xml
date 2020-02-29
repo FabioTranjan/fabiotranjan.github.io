@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hello. I'm Fabio Tranjan.</title>
+    <description>I'm a Ruby Developer from Curitiba, Brazil creating WebApps and SaaS platforms.</description>
+    <link>https://fabiotranjan.github.io/</link>
+    <atom:link href="https://fabiotranjan.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 29 Feb 2020 01:05:58 -0300</pubDate>
+    <lastBuildDate>Sat, 29 Feb 2020 01:05:58 -0300</lastBuildDate>
+    <generator>Jekyll v3.8.6</generator>
+    
+      <item>
+        <title>Phantom</title>
+        <description>
+</description>
+        <pubDate>Sat, 20 Feb 2016 19:15:00 -0200</pubDate>
+        <link>https://fabiotranjan.github.io/development/design/2016/02/20/phantom-jekyll-template.html</link>
+        <guid isPermaLink="true">https://fabiotranjan.github.io/development/design/2016/02/20/phantom-jekyll-template.html</guid>
+        
+        <category>Jekyll</category>
+        
+        <category>Sass</category>
+        
+        <category>Bootstrap</category>
+        
+        
+        <category>development</category>
+        
+        <category>design</category>
+        
+      </item>
+    
+      <item>
+        <title>Rescue Themes</title>
+        <description>
+</description>
+        <pubDate>Sat, 20 Feb 2016 13:56:00 -0200</pubDate>
+        <link>https://fabiotranjan.github.io/development/design/2016/02/20/rescue-themes.html</link>
+        <guid isPermaLink="true">https://fabiotranjan.github.io/development/design/2016/02/20/rescue-themes.html</guid>
+        
+        <category>WordPress</category>
+        
+        <category>PHP</category>
+        
+        <category>Sass</category>
+        
+        
+        <category>development</category>
+        
+        <category>design</category>
+        
+      </item>
+    
+      <item>
+        <title>Weathercast</title>
+        <description>
+</description>
+        <pubDate>Sat, 20 Feb 2016 13:56:00 -0200</pubDate>
+        <link>https://fabiotranjan.github.io/development/2016/02/20/weathercast.html</link>
+        <guid isPermaLink="true">https://fabiotranjan.github.io/development/2016/02/20/weathercast.html</guid>
+        
+        <category>JavaScript</category>
+        
+        <category>AngularJS</category>
+        
+        <category>API</category>
+        
+        <category>Sass</category>
+        
+        
+        <category>development</category>
+        
+      </item>
+    
+      <item>
+        <title>Bloc Jams Angular</title>
+        <description>
+</description>
+        <pubDate>Sat, 20 Feb 2016 12:15:00 -0200</pubDate>
+        <link>https://fabiotranjan.github.io/development/2016/02/20/bloc-jams-angular.html</link>
+        <guid isPermaLink="true">https://fabiotranjan.github.io/development/2016/02/20/bloc-jams-angular.html</guid>
+        
+        <category>JavaScript</category>
+        
+        <category>AngularJS</category>
+        
+        <category>Sass</category>
+        
+        <category>Grunt</category>
+        
+        
+        <category>development</category>
+        
+      </item>
+    
+  </channel>
+</rss>
