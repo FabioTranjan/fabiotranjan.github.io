@@ -1,6 +1,6 @@
-## Portfolio
+# Portfolio
 
-# Fancy using it for your own site?
+## Fancy using it for your own site?
 
 Here are some steps to get you started:
 
@@ -26,7 +26,7 @@ Here are some steps to get you started:
 
   `http://127.0.0.1:4000`
 
-# Credits
+## Credits
 
 * Bootstrap, http://getbootstrap.com/, (C) 2011 - 2016 Twitter, Inc., [MIT](https://github.com/twbs/bootstrap/blob/master/LICENSE)
 
