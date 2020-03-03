@@ -263,12 +263,16 @@ button.btn, input.btn {
   @include bp-small {
     margin-bottom: 2em;
   }
-  img.img-responsive {
-    @include bp-xsmall {
-      display: none;
-    }
-    @include bp-small {
-      display: none;
+  .img-container {
+    margin-top: 20px;
+    border: 2px solid #eceff1;
+    img.img-responsive {
+      @include bp-xsmall {
+        display: none;
+      }
+      @include bp-small {
+        display: none;
+      }
     }
   }
   .content {
