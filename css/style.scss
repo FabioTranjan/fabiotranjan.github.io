@@ -265,7 +265,6 @@ button.btn, input.btn {
   }
   .img-container {
     margin-top: 20px;
-    border: 2px solid #eceff1;
     img.img-responsive {
       @include bp-xsmall {
         display: none;
