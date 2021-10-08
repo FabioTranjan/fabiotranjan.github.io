@@ -21,7 +21,7 @@ twitter_username: 'fabiotranjan'
 github_username: 'fabiotranjan'
 medium_username: '@fabiotkx'
 linkedin_username: 'fabio-tranjan-8aa84bbb'
-section_title: 'Best Projects'
+section_title: 'Latest Posts'
 
 # Build settings
 markdown: kramdown
@@ -99,3 +99,5 @@ enable_contact: true
 enable_nav: true
 nav_item:
   - { url: '/', text: 'Home' }
+  - { url: '/blog', text: 'Blog' }
+  - { url: '/about', text: 'About' }
