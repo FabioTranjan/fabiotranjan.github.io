@@ -1,7 +1,7 @@
 ---
 layout: inner
-title: About
-permalink: /about/
+title: Template
+permalink: /template/
 ---
 ## Markdown
 

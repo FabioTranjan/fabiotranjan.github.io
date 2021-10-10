@@ -90,7 +90,7 @@ pagination:
 ############################################################
 
 ### Phantom settings
-footer_text: '© 2020 Fabio Tranjan'
+footer_text: '© 2021 Fabio Tranjan'
 admin_name: 'Fabio Tranjan'
 google_analytics: "UA-9999999-99" # Update with your own tracking ID
 enable_contact: true
@@ -100,4 +100,3 @@ enable_nav: true
 nav_item:
   - { url: '/', text: 'Home' }
   - { url: '/blog', text: 'Blog' }
-  - { url: '/about', text: 'About' }
