@@ -338,20 +338,30 @@ button.btn, input.btn {
     color: #9eb1bd;
     margin: 0;
     padding: 10px 0;
-    @include bp-xsmall {
+    @include bp-xmedium {
       text-align: center;
     }
   }
   .section-jump {
     float: right;
-    @include bp-xsmall {
+    @include bp-xmedium {
       float: none;
     }
   }
 }
 
 /*--------------------------------------------------------------
-	5.0 Code formatting
+	5.0 Blog
+--------------------------------------------------------------*/
+
+.blog {
+  .posts {
+    list-style-type: none;
+  }
+}
+
+/*--------------------------------------------------------------
+	6.0 Code formatting
 --------------------------------------------------------------*/
 pre,
 code {
@@ -373,17 +383,7 @@ pre {
     padding-left: 0; }
 
 /*--------------------------------------------------------------
-	5.0 Blog
---------------------------------------------------------------*/
-
-.blog {
-  .posts {
-    list-style-type: none;
-  }
-}
-
-/*--------------------------------------------------------------
-	6.0 Syntax highlighting styles
+	7.0 Syntax highlighting styles
 --------------------------------------------------------------*/
 .highlight {
   background: #fff; }
