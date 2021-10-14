@@ -1,13 +1,13 @@
-# Portfolio
+# Phatom Blog
 
-## Fancy using it for your own site?
+## Fancy using it for your own blog?
 
 Here are some steps to get you started:
 
 1. Clone this repo and cd into the directory:
 
   ```bash
-  git clone https://github.com/jamigibbs/phantom.git your-dir-name && cd your-dir-name
+  git clone https://github.com/FabioTranjan/fabiotranjan.github.io your-dir-name && cd your-dir-name
   ```
 
 2. Run:
