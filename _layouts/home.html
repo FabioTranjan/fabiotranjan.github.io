@@ -1,28 +1,24 @@
 {% include header.html %}
+  <main id="portfolio">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
 
-    {% include home-hero.html %}
+          {% if site.section_title != '' %}
+          <h2 class="section-title text-center">{{ site.section_title }}</h2>
+          {% endif %}
 
-    <main id="portfolio">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
+          <div class="break"></div>
 
-            {% if site.section_title != '' %}
-            <h2 class="section-title text-center">{{ site.section_title }}</h2>
-            {% endif %}
+          {% for post in site.posts %}
+            <div class="wow fadeIn posts">
+              <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+              {{ post.excerpt }}
+            </div>
+          {% endfor %}
 
-            <div class="break"></div>
-
-            {% for post in site.posts %}
-              <div class="wow fadeIn posts">
-                <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-                {{ post.excerpt }}
-              </div>
-            {% endfor %}
-
-          </div>
         </div>
       </div>
-    </main>
-
+    </div>
+  </main>
 {% include footer.html %}

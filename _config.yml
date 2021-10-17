@@ -100,3 +100,4 @@ enable_nav: true
 nav_item:
   - { url: '/', text: 'Home' }
   - { url: '/blog', text: 'Blog' }
+  - { url: '/about', text: 'About' }

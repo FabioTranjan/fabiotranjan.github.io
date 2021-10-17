@@ -126,6 +126,7 @@ button.btn, input.btn {
   width: 60%;
   margin: 0 auto;
   display: table;
+  text-align: center;
   @include bp-medium {
     width: 100%;
   }
@@ -141,6 +142,11 @@ button.btn, input.btn {
   }
   p {
     margin: 0.5em 0;
+  }
+  .hero-image {
+    width: 150px;
+    margin-bottom: 2em;
+    border-radius: 50%;
   }
   .hero-buttons {
     margin: 0 auto;
@@ -231,6 +237,7 @@ button.btn, input.btn {
   position: relative;
   margin: 0 auto;
   margin-bottom: 1em;
+  padding-top: 2em;
   &:after {
     content: '';
     position: absolute;
@@ -256,7 +263,7 @@ button.btn, input.btn {
   }
 }
 
-.content-wrap {
+-wrap {
   margin-bottom: 8em;
   @include bp-xsmall {
     margin-bottom: 2em;
@@ -277,7 +284,7 @@ button.btn, input.btn {
     }
   }
   .content {
-    margin: 5em;
+    margin: 5em 0;
     @include bp-xsmall {
       margin-left: 0;
     }
