@@ -1,4 +1,6 @@
-# Phatom Blog
+# Phantom Blog
+
+### View it directly at: https://fabiotranjan.com
 
 ## Fancy using it for your own blog?
 
