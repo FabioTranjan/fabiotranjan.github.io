@@ -94,6 +94,7 @@ button.btn, input.btn {
   border-right: solid 1px #cedfea;
   &.container {
     padding: 0;
+    padding-top: 2em;
   }
 }
 
@@ -236,8 +237,7 @@ button.btn, input.btn {
 .section-title {
   position: relative;
   margin: 0 auto;
-  margin-bottom: 1em;
-  padding-top: 2em;
+  margin-top: 1em;
   &:after {
     content: '';
     position: absolute;
