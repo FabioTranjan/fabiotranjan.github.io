@@ -53,6 +53,16 @@ p {
   font-size: 1.3em;
 }
 
+li {
+  margin: 4px 0;
+  line-height: 1.5;
+  font-size: 1.2em;
+}
+
+blockquote {
+  font-size: 1.2em;
+}
+
 a {
   @include transition(color .2s ease-in-out);
   &:hover {
