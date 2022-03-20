@@ -99,6 +99,7 @@ button.btn, input.btn {
 }
 
 .main {
+  min-height: 100vh;
   background-color: white;
   border-left: solid 1px #cedfea;
   border-right: solid 1px #cedfea;
@@ -349,6 +350,10 @@ button.btn, input.btn {
   margin-top: 2em;
   border-top: 1px solid #efefef;
   padding: 1em 0;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
   p {
     font-size: 12px;
     font-weight: 600;
