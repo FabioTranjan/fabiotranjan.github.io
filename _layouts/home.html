@@ -8,12 +8,15 @@
           <h2 class="section-title text-center">{{ site.section_title }}</h2>
           {% endif %}
 
-          <div class="break"></div>
+          <div class="mini-break"></div>
+          <h3 class="text-center">Latest Posts</h3>
+          <div class="mini-break"></div>
 
           {% for post in site.posts %}
             <div class="wow fadeIn posts">
-              <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+              <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
               {{ post.excerpt }}
+              <div class="mini-break"></div>
             </div>
           {% endfor %}
 

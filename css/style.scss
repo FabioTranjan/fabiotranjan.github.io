@@ -33,6 +33,20 @@ $secondary: #FF7B7B;
   }
 }
 
+.container {
+  margin-top: 2em;
+  padding: 0 100px;
+  .break {
+    margin: 8em 0;
+    @include bp-xsmall {
+      margin: 2em 0;
+    }
+  }
+  .mini-break {
+    margin: 4em 0;
+  }
+}
+
 body {
   background-color: #e9edf0;
   @extend %opensans;
@@ -99,12 +113,13 @@ button.btn, input.btn {
 }
 
 .main {
+  min-height: 100vh;
   background-color: white;
   border-left: solid 1px #cedfea;
   border-right: solid 1px #cedfea;
   &.container {
     padding: 0;
-    padding-top: 2em;
+    padding-top: 4em;
   }
 }
 
@@ -124,13 +139,7 @@ button.btn, input.btn {
 	2.0 Home Hero
 --------------------------------------------------------------*/
 .hero-container {
-  margin: 10em 0 9em 0;
-  @include bp-xsmall {
-    margin: 5em 0 5em 0;
-  }
-  @include bp-small {
-    margin: 5em 0 5em 0;
-  }
+  margin: 2em 0;
 }
 
 .hero-content {
@@ -233,16 +242,6 @@ button.btn, input.btn {
 /*--------------------------------------------------------------
 	3.0 Posts
 --------------------------------------------------------------*/
-#portfolio .container {
-  margin-top: 2em;
-  padding: 0 100px;
-  .break {
-    margin: 8em 0;
-    @include bp-xsmall {
-      margin: 2em 0;
-    }
-  }
-}
 
 .section-title {
   position: relative;
@@ -349,6 +348,11 @@ button.btn, input.btn {
   margin-top: 2em;
   border-top: 1px solid #efefef;
   padding: 1em 0;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #fff;
   p {
     font-size: 12px;
     font-weight: 600;
@@ -378,8 +382,11 @@ button.btn, input.btn {
 
   .date {
     margin: 2em 0;
-    font-size: 2.5rem;
     text-align: center;
+  }
+
+  li {
+    font-size: 1em;
   }
 }
 

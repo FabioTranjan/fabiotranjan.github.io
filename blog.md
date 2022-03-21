@@ -10,12 +10,13 @@ permalink: /blog/
       {% capture nextday %}{{ post.next.date | date: '%m%Y' }}{% endcapture %}
 
       {% if day != nextday %}
-        <h5 class="date">{{ post.date | date: "%B, %Y" }}</h5>
+        <h2 class="date">{{ post.date | date: "%B, %Y" }}</h2>
       {% endif %}
 
       <li>
-        <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+        <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
         {{ post.excerpt }}
+        <div class="mini-break"></div>
       </li>
     {% endfor %}
   </ul>
