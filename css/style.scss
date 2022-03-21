@@ -105,7 +105,7 @@ button.btn, input.btn {
   border-right: solid 1px #cedfea;
   &.container {
     padding: 0;
-    padding-top: 2em;
+    padding-top: 5em;
   }
 }
 
@@ -242,6 +242,9 @@ button.btn, input.btn {
     @include bp-xsmall {
       margin: 2em 0;
     }
+  }
+  .mini-break {
+    margin: 4em 0;
   }
 }
 
@@ -384,7 +387,6 @@ button.btn, input.btn {
 
   .date {
     margin: 2em 0;
-    font-size: 2.5rem;
     text-align: center;
   }
 }
