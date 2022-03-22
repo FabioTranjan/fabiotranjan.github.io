@@ -7,7 +7,6 @@
 
 1.0 Defaults
 2.0 Home Hero
-  2.1 Contact
 3.0 Posts
 4.0 Footer
 5.0 Blog
@@ -174,68 +173,6 @@ button.btn, input.btn {
     i {
       padding-right: 0.5em;
     }
-  }
-}
-
-/*--------------------------------------------------------------
-	2.1 Contact
---------------------------------------------------------------*/
-
-.contact-link {
-  color: black;
-  display: block;
-  cursor: pointer;
-  margin-top: 20px;
-  text-decoration: underline;
-}
-
-.modal-header {
-  border-bottom: none;
-  button {
-    margin-bottom: 0;
-  }
-}
-
-.modal-content {
-  border-radius: 2px;
-}
-
-.modal-body {
-  margin: 0 20px;
-  label {
-    font-weight: 300;
-    font-size: 22px;
-    margin-bottom: 0.5em;
-  }
-  textarea, input {
-    border-color: #e6e6e6;
-    border-radius: 2px;
-    -webkit-box-shadow: none;
-    box-shadow: none;
-    margin-bottom: 1em;
-  }
-  .form-group {
-    margin: 0;
-  }
-  .form-control {
-    padding: 25px;
-    font-size: 16px;
-  }
-  input[type="submit"]{
-    float: right;
-    margin-right: 0;
-  }
-  ::-webkit-input-placeholder {
-    color: #D6D6D6;
-  }
-  :-moz-placeholder {
-    color: #D6D6D6;
-  }
-  ::-moz-placeholder {
-    color: #D6D6D6;
-  }
-  :-ms-input-placeholder {
-    color: #D6D6D6;
   }
 }
 

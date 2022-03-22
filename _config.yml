@@ -94,7 +94,6 @@ footer_text: '© 2021 Fabio Tranjan'
 admin_name: 'Fabio Tranjan'
 google_analytics: 'G-R2XDFGMBNP'
 enable_analytics: true
-enable_contact: true
 
 #### Phantom Navigation menu
 enable_nav: true

@@ -13,17 +13,11 @@ permalink: /about/
 
     <img src="https://avatars.githubusercontent.com/u/26252636?v=4" class="hero-image" />
 
-    {% if site.enable_contact == true %}
     <div class="text-center">
      <p>I'm a <b>Software Engineer</b> from <i>Curitiba, Brazil</i>.</p>
-     <p>I create <b>WebApps</b> and <b>SaaS</b> platforms using <span style="color: #cc373d;">Ruby</span> and <span style="color: #61dafb">React</span>.</p>
-
-      {% if site.enable_contact == true %}
-     <p>{% include contact.html %}</p>
-      {% include contact-modal.html %}
-      {% endif %}
+     <p>I create <b>WebApps</b> and <b>SaaS</b> platforms using <span style="color: #cc373d;">RoR</span> and <span style="color: #61dafb">React</span>.</p>
+     <p><b>Contact me</b> directly at <i>{{ site.email }}</i>.</p>
     </div>
-    {% endif %}
 
     <div class="hero-buttons">
 
