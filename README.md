@@ -28,6 +28,12 @@ Here are some steps to get you started:
 
   `http://127.0.0.1:4000`
 
+4. Create new posts in *_posts* folder:
+
+  Post filename structure: `{year-month-day-description}.md`
+
+  _That's it! Enjoy you new blog website!_
+
 ## Credits
 
 * Phantom Jekyll Theme, https://jekyllthemes.io/theme/phantom, (C) 2016 - 2020 Jami Gibbs, [MIT](https://github.com/jamigibbs/phantom)
