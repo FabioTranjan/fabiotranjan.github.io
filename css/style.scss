@@ -35,6 +35,7 @@ $secondary: #FF7B7B;
 .container {
   margin-top: 2em;
   padding: 0 100px;
+  padding-bottom: 50px;
   .break {
     margin: 8em 0;
     @include bp-xsmall {
@@ -53,7 +54,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  @extend %merriweather;
+  @extend %opensans;
   font-weight: 700;
 }
 
